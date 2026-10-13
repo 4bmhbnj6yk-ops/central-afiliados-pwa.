@@ -1,0 +1,31 @@
+CENTRAL DE AFILIADOS — VERSÃO WEB INSTALÁVEL PARA IPHONE (PWA)
+
+O pacote contém index.html, manifest.webmanifest, icon.svg e sw.js.
+
+COMO INSTALAR USANDO APENAS IPHONE
+1. Crie uma conta gratuita no GitHub (github.com), se ainda não tiver.
+2. No Safari, crie um repositório PÚBLICO com nome como central-afiliados-pwa.
+3. Adicione os quatro arquivos deste ZIP na RAIZ do repositório (Add file > Upload files). No iPhone, descompacte o ZIP no app Arquivos antes do upload. Se necessário, peça a versão para computador no Safari.
+4. Em Settings > Pages, selecione Deploy from a branch, branch main, pasta / (root), e salve.
+5. Acesse o endereço HTTPS exibido pelo GitHub Pages após a publicação. Não informe senhas ou dados pessoais nos arquivos públicos do repositório.
+6. No Safari do iPhone: Compartilhar > Adicionar à Tela de Início > Abrir como App > Adicionar.
+
+Você também pode abrir index.html diretamente para visualizar parte do aplicativo, mas a instalação PWA e o cache offline exigem hospedagem HTTPS.
+
+RECURSOS
+- Cadastro e remoção de produtos
+- Importação e exportação CSV
+- Simulação local de comissões
+- Campanhas com texto e roteiro, compartilhamento
+- Backup/restauração JSON
+- Cache offline depois do primeiro acesso HTTPS
+
+LIMITAÇÕES
+- NÃO possui conexão ativa com a API Shopee.
+- NÃO cria links de afiliado: devem ser obtidos na plataforma oficial.
+- NÃO gera MP4 nem publica vídeos automaticamente.
+- NÃO mede vendas reais, cliques nem ranking de mais vendidos.
+- Dados ficam somente no dispositivo e podem ser apagados pelo Safari ou iOS; mantenha backups.
+- Produto demonstrativo e comissão estimada não representam ofertas reais.
+
+AVISO: ferramenta independente, não oficial da Shopee. Não coloque credenciais, senhas ou segredos no código estático publicado. Para a API oficial, será preciso backend com autenticação e permissões devidas.
